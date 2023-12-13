@@ -1,0 +1,41 @@
+body {
+  background-image: url();
+  background-color: rgb(44, 60, 44);
+}
+
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.container h1 {
+  font-size: 80px;
+  font-family: Impact;
+}
+
+.container p {
+  font-size: 35px;
+  font-weight: 900px;
+}
+
+.container button {
+  width: 200px;
+  padding: 20px;
+  border-radius: 50px;
+  font-weight: bolder;
+  font-size: 22px;
+  border: none;
+  transition: all.3s;
+}
+
+.container button:hover {
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+#quote,
+#author {
+  font-style: italic;
+  color: wheat;
+}
